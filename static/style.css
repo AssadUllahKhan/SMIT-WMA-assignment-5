@@ -1,0 +1,131 @@
+label {
+    color: rgb(17, 137, 222);
+}
+
+#alert {
+    max-height: 55px;
+}
+
+#alert p {
+    font-size: .9rem;
+    line-height: 2px;
+    font-weight: 600;
+    color: #721c24 !important;
+}
+
+.top {
+    position: relative;
+    overflow: hidden;
+    margin-top: -17px;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background-image: url("/static/imgs/img1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .1;
+    z-index: -1;
+}
+
+.top-content {
+    position: relative;
+    z-index: 1;
+}
+
+.top-content .logo {
+    margin: 8px auto;
+    width: 270px;
+}
+
+.top-content-head .head-imgs img {
+    width: 25px;
+}
+
+nav ul a:active {
+    color: #99c940;
+}
+
+
+.form-pic .form-pic-li {
+    margin-top: 10px;
+}
+
+.form-pic .form-pic-li li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.last-li {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button {
+    color: #fff;
+    background-color: #0d6db7;
+}
+
+/* Style the input element */
+.abc {
+    width: 90%;
+    height: 200px;
+    border: 1px dotted gray;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    /* To ensure width and height take effect */
+}
+
+.image-upload-input {
+    display: none;
+}
+
+/* Hide the "Choose File" text */
+.image-upload-input::before {
+    content: "";
+}
+
+/* Style the container for the image upload */
+.image-upload {
+    display: inline-block;
+}
+
+/* 
+@media screen and (max-width: 768px) {
+    #alert {
+        font-size: 12px;
+        max-height: 50px;
+    }
+
+    .top-content .logo {
+        margin: 8px auto;
+        width: 200px;
+    }
+
+    .top-content-head .head-imgs img {
+        width: 22px;
+    }
+
+    .top-content-head .student-portal a {
+        padding: 4px 7px;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+
+    .last-li {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #alert {
+        font-size: 8px;
+        max-height: 50px;
+    }
+} */
